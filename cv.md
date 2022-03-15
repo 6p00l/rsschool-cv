@@ -17,6 +17,17 @@ I am a student at Moscow Technical University of Communications and Informatics,
 
 ---
 
+### Code example:
+
+``` CPP
+int SUM(int A, int B)
+{
+if (0 == A) return B;
+if (0 == B) return A;
+return (1 + (SUM(A, B - 1) + SUM(A - 1, B)) / 2);
+}
+```
+
 ### Skills:
 
 * HTML/CSS
